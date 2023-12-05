@@ -289,9 +289,24 @@ h1 {
     grid-template-columns: 1fr;
     margin-bottom: 3rem;
   }
+
+  .player-o {
+    margin-left: 45%;
+    margin-top: -2rem;
+  }
+
+  .player-o:after {
+    left: 70%;
+    box-shadow: 22px 22px var(--dark-blue);
+    z-index: -2;
+  }
 }
 
 @media screen and (max-width: 450px) {
+  .player-o {
+    margin-left: 35%;
+    margin-top: -2rem;
+  }
   .square {
     width: 5.5rem;
     height: 5.5rem;
